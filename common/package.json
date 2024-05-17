@@ -1,15 +1,17 @@
 {
   "name": "@pavankumar/medium-common",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "pavan",
   "license": "ISC",
-  "description": "",
+  "description": "as we are still not reached monorepo we are exploreing npm publish",
   "dependencies": {
     "zod": "^3.23.8"
-  }
+  },
+  "devDependencies": {},
+  "types": "./dist/index.d.ts"
 }
